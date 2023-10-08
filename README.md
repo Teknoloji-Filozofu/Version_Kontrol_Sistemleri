@@ -51,14 +51,14 @@ Geliştirilen sistemler çerçevesinde kişisel ve/veya kurum ölçeğinde pek �
 #### CVS Version Control (Concurrent Versions System)
 [CVS](https://www.nongnu.org/cvs/) en eski sürüm kontrol sistemlerinden biridir ve hem ticari hem de açık kaynaklı geliştiriciler arasında iyi bilinen bir araçtır. Diğer versiyon kontrol sistemleri (SVN, Git vb.) CVS özellikleri / eksiklikleri temel alınarak geliştirilmişlerdir.
 
-#### GitHub
-[[Github - Git]] yapısını kullanan bir platform. Platform olmasının sağladığı avantajlar ve sunduğu ek özellikler çerçevesinde yazılım ekipleri tüm kod değişiklik geçmişini takip edebilmekte, sürümler arasında geçiş yapabilmekte ve paylaşabilmekte. Ek olarak, açık projeler kullanıcılar tarafından fork edilebilmekte, çalışmalara dahil olabilmekte ve repo’ları edinebilmekteler.
+#### Git-GitHub
+Github - Git yapısını kullanan bir platform. Platform olmasının sağladığı avantajlar ve sunduğu ek özellikler çerçevesinde yazılım ekipleri tüm kod değişiklik geçmişini takip edebilmekte, sürümler arasında geçiş yapabilmekte ve paylaşabilmekte. Ek olarak, açık projeler kullanıcılar tarafından fork edilebilmekte, çalışmalara dahil olabilmekte ve repo’ları edinebilmekteler.
 
 #### GitLab
-[GitLab](https://gitlab.com/), GitHub alternatifi olarak değerlendirilebilir. Ancak, GitHub’a kıyasla daha yeni bir platform olmasına karşın çok daha kapsamlı özellikler sunduğu söylenebilir. Benim de kişisel olarak kullandığım platform GitLab olduğu için yayınladığım yazılarda genel olarak GitLab repolarına denk gelmeniz olası. Ancak, GitHub ile kıyaslandığında popülerlik yarışında daha geriler geldiği söylenebilir.
+[GitLab](https://gitlab.com/), GitHub alternatifi olarak değerlendirilebilir. Ancak, GitHub’a kıyasla daha yeni bir platform olmasına karşın çok daha kapsamlı özellikler sunduğu söylenebilir.
 
 #### Mercurial
-[Mercurial](https://www.mercurial-scm.org/about), `git` yerine kendi yapısını kullanmaktadır ve `git`‘in öne çıkan alternatiflerinden biri olarak nitelendirilebilir. GitHub ve GitLab’ın sunduğu platform özellikleriyle kıyaslandığında Mercurial’ün ayrıca yapılandırılması gerekir[13](https://ceaksan.com/tr/versiyon-kontrol-sistemi-vcs-nedir#fn:6).
+[Mercurial](https://www.mercurial-scm.org/about), `git` yerine kendi yapısını kullanmaktadır ve `git`‘in öne çıkan alternatiflerinden biri olarak nitelendirilebilir. GitHub ve GitLab’ın sunduğu platform özellikleriyle kıyaslandığında Mercurial’ün ayrıca yapılandırılması gerekir.
 
 #### PerForce
 [Perforce](https://www.perforce.com/), sürüm kontrolü yeteneklerini HelixCore aracılığıyla sunar. HelixCore, ekip işbirliğini öne çıkaran tek bir platformla birlikte gelir ve hem merkezi hem de dağıtılmış geliştirme iş akışlarını destekler.
@@ -77,3 +77,15 @@ Geliştirilen sistemler çerçevesinde kişisel ve/veya kurum ölçeğinde pek �
 
 #### Bitbucket
 [Bitbucket](https://bitbucket.org/), `git` temelli bir versiyon kontrol sistemidir. Atlassian yazılım paketinin bir parçasıdır ve bu sayede HipChat, Jira ve Bamboo gibi diğer Atlassian servisleri ile kolayca entegre edilebilir.
+
+#### Mercurial
+Dağıtık bir versiyon kontrol sistemidir. **Git** ile benzer özelliklere sahiptir.
+
+#### TFS (Team Foundation Server)
+Microsoft tarafından geliştirilmiş bir merkezi versiyon kontrol sistemidir.
+
+#### Bazaar
+Dağıtık bir versiyon kontrol sistemidir. Özellikle açık kaynaklı projelerde kullanılır.
+
+#### Darcs
+Dağıtık bir versiyon kontrol sistemidir. Basitliği ve kullanım kolaylığı ile bilinir.
