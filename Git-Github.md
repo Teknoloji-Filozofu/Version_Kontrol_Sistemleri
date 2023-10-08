@@ -40,7 +40,7 @@ Kullanıcı adınızı ve email adresinizi **Git** sistemine kaydetmek oldukç
 - **Local Repository:** Bu, Git'in projenin tüm geçmiş sürümlerini ve değişikliklerini sakladığı yere denir. Yani, burası dosyalardaki değişiklikleri kaydettiğiniz yerdir. Local Repository, proje dizininde .git adı verilen bir klasör içinde saklanır. Bu klasör, projenin tam tarihçesini ve Git'in projeyle ilgili diğer verilerini içerir.
 - **Rrepository:** Bir projenin orijinal kaynak kod deposudur. Bu genellikle bir açık kaynak yazılım projesi için bir **GitHub** deposu veya benzeri bir git barındırma servisi olabilir. Fork işlemi yapıldığında, kullanıcının hesabında bir kopya oluşturulur ve bu kopya, orijinal proje ile senkronize edilebilir. Senkronize edildiğinde, kullanıcının kopyası, değişikliklerin yapılmasına, commit edilmesine ve bir **Pull request** gönderilmesine izin verir. Repository, orijinal proje ile senkronize edildiğinde, bu değişikliklerin orijinal projeye dahil edilmesini sağlar. Bu nedenle repository, bir projenin yönetimi ve katkıda bulunulması için önemlidir.
 
-![git]()
+![git](https://github.com/Teknoloji-Filozofu/Version_Kontrol_Sistemleri/blob/main/_media/git.PNG)
 
 > `git init` --> bulunduğumuz klasöre gelerek terminalden git'i başlatıyoruz 
 
@@ -80,7 +80,7 @@ Kullanıcı adınızı ve email adresinizi **Git** sistemine kaydetmek oldukç
 
 > `git push` --> yazdığımız kodu githuba gönderir
 
-![git-2]()
+![git-2](https://github.com/Teknoloji-Filozofu/Version_Kontrol_Sistemleri/blob/main/_media/git-2.PNG)
 
 ## Branch 
 Branch, Git'te ana projeden ayrılan farklı bir projenin kopyasıdır. Bu, bir projenin farklı sürümlerinin yönetilmesini sağlar. Ana projeden yeni bir dal alarak, o dalda yapılan değişiklikler ana projeyi etkilemez. Böylece birden fazla kişi aynı proje üzerinde çalışırken, farklı dalarda çalışarak kodları yönetebilirler. Ayrıca, farklı özelliklerin geliştirilmesi, hata düzeltmeleri gibi farklı görevleri üstlenebilirler. Branch'ler, daha sonra birleştirilebilir veya silinebilir.
@@ -106,12 +106,12 @@ Git'te merge, farklı branch'lerin birleştirilmesini sağlayan bir işlem olara
 
 > `git merge <branch name>` --> Komutu ile ismini verdiğimiz branch'i master branch'ine birleştirebiliriyoruz. 
 
-![merge]()
+![merge](https://github.com/Teknoloji-Filozofu/Version_Kontrol_Sistemleri/blob/main/_media/merge.png)
 
 #### Fast Forward 
 Fast forwarding, birleştirme işlemi sırasında, kaynak branch'in (genellikle feature branch) değişikliklerinin, hedef branch'e (genellikle master branch) direk olarak uygulanmasıdır. Bu işlem sırasında, herhangi bir çakışma olmadığı ve her iki branch'in de aynı değişiklikleri içerdiği varsayılır.
 
-![fast-forward]()
+![fast-forward](https://github.com/Teknoloji-Filozofu/Version_Kontrol_Sistemleri/blob/main/_media/fast-forward.png)
 
 #### Merge Conflict
 Merge Conflict, Git branch'leri arasındaki değişikliklerin birleştirilmesi sırasında ortaya çıkan çakışmaları ifade eder. Bir Merge Conflict, aynı dosyanın aynı satırlarında farklı değişikliklerin yapıldığı durumlarda oluşur. 
@@ -147,11 +147,11 @@ commit atmadan önce :
 
 Checkout, belirtilen bir commit'e veya dalın bir önceki commit'ine geri dönmemizi sağlar. Bu işlem sonrasında HEAD işaretçisi, doğrudan commit veya dalı gösterir. Ancak, git checkout komutu ile commit'e geri döndüğümüzde Detached HEAD durumuna düşeriz. Bu durumda, HEAD işaretçisi doğrudan bir commit'i işaret eder ve mevcut konum geçici bir durumdur.
 
-![git-chechout]()
+![git-chechout](https://github.com/Teknoloji-Filozofu/Version_Kontrol_Sistemleri/blob/main/_media/git-chechout.png)
 
 > `git switch master` diyerek head'ı master'a geri getirebiliriz.
 
-![git-chechout_2]()
+![git-chechout_2](https://github.com/Teknoloji-Filozofu/Version_Kontrol_Sistemleri/blob/main/_media/git-chechout_2.png)
 
 yada farklı bir branch açarak ordan devam edebiliriz. 
 
@@ -182,9 +182,9 @@ Ayrıca, git diff --color-words komutu kullanılarak, değişen kelime veya kara
 ### Rebase
 Git'te "rebase" komutu, bir dalı diğerine eklemek için kullanılır ve birleştirme işlemi yaparken diğer dalın değişiklikleri geçerli dala uygulanır. Bu, daha temiz bir Git geçmişi sağlar ve uzun süreli projelerde sıkça kullanılır.
 
-![rebase_1]()
+![rebase_1](https://github.com/Teknoloji-Filozofu/Version_Kontrol_Sistemleri/blob/main/_media/rebase_1.png)
 
-![rebase_2]()
+![rebase_2](https://github.com/Teknoloji-Filozofu/Version_Kontrol_Sistemleri/blob/main/_media/rebase_2.png)
 
 ## Github
 
@@ -220,7 +220,7 @@ Artık ilk repo'nuzu oluşturduğunuza göre, projenizi bilgisayarınızdan Gith
 
 Github'da repo oluştuduktan sonra kendi klasörümüz ile bağlantı kurabilmek için 3 seçenek sunuyor.
 
-![github-git-bağlantı]()
+![github-git-bağlantı](https://github.com/Teknoloji-Filozofu/Version_Kontrol_Sistemleri/blob/main/_media/github-git-ba%C4%9Flant%C4%B1.png)
 
 1. seçenekte klasöre git init yaparak bağlantı sağlıyoruz. 
 2. seçenekte init yapılmış klasörle github bağlantısı sağlıyoruz. 
