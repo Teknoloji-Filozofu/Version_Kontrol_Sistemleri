@@ -1,6 +1,6 @@
 # Version_Kontrol_Sistemleri
 
-**resim1**
+![version_kontrol](https://github.com/Teknoloji-Filozofu/Version_Kontrol_Sistemleri/blob/main/_media/version_kontrol.webp)
 
 Version Control System bir döküman (yazılım projesi, ofis belgesi…) üzerinde yaptığımız degişiklikleri adım adım kaydeden ve isterseniz bunu internet üzerinde depoda (respository) saklamamızı ve yönetmemizi sağlayan bir sistemdir.
 
@@ -15,17 +15,17 @@ Version Control System bir döküman (yazılım projesi, ofis belgesi…) üzeri
 ### Local Versiyon Kontrol Sistemleri
 En eski versiyon kontrol sistemi yaklaşımıdır. Çalıştığımız projemiz ve yaptığımız değişiklikler kullanıcı makinası üzerindeki veritabanında tutulur. Her yapılan commit bir versiyon olarak tutulur ve commit değerine hash ataması yapılarak her versiyon birbirinden ayırt edilmektedir. Ayrıca versiyon görüntüleme imkanını sağlar. Ancak bu sistemde sadece bir kullanıcı etkin bir şekilde çalışabilir.
 
-**resim2**
+![local_vcs](https://github.com/Teknoloji-Filozofu/Version_Kontrol_Sistemleri/blob/main/_media/local_vcs.webp)
 
 ### Merkezi Versiyon Kontrol Sistemleri
 Birden fazla kişinin bir proje üzerinde etkin çalışması için ortaya atılmış versiyonlama sistemidir. **CVS, SVN** birer merkezi versiyon kontrol sistemleridir. Bu sistemde proje ortak bir respository’de tutulur ve birden fazla geliştirici aynı respository üzerinde checkout ve commit işlemlerini gerçekleştirmektedir. Bu yöntemde herkesin projeye katkı sağlamasının yanısıra bazı ciddi sorunları vardır. Tek merkezli sunucu 1 saatliğine arızalanması durumunda, kullanıcılar 1 saat boyunca çalışmalarını veya çalıştıkları projenin sürümlenmiş kopyalarını kaydetmeleri mümkün olmayacaktır.
 
-**resim3**
+![merkezi_vcs](https://github.com/Teknoloji-Filozofu/Version_Kontrol_Sistemleri/blob/main/_media/merkezi_vcs.webp)
 
 ### Dağıtık Versiyon Kontrol Sistemleri
 Merkez versiyon sistemlerinin geliştiricilerin offline çalışabilmesi ve respository’nin zarar görmesi durumunda geri getirme gibi eksikliklerinden dolayı ortaya atılmış bir versiyon sistemidir. **Git**, **Mercurial**, **BitKeeper**… dağıtık versiyon sistemleri örnek gösterilebilir. Bu sistemlerde merkezi bir respository olmayıp, proje üzerinde çalışan her makine, projenin kopyasını kendi yerel bilgisayarında tutmaktadır. Geliştiriciler proje üzerinde değişiklik yapmak veya proje geçmişine göz atmak istediklerinde, uzak depo ile iletişime geçmek zorunda değildir. Sunuculardan biri çökerse ve o sunucu üzerinde ortak çalışma yürüten sistemler varsa, geliştircilerden birinin projeyi sunucuya geri yükleyerek sistem kurtarılabilir.
 
-**resim4**
+![dağıtık_vcs](https://github.com/Teknoloji-Filozofu/Version_Kontrol_Sistemleri/blob/main/_media/da%C4%9F%C4%B1t%C4%B1k_vcs.webp)
 
 ### Dağıtık Sistemler İle Merkezi Sistemler Karşılaştırması
 Dağıtık versiyon kontrol sistemleri (DVCS), merkezi sistemlerin tercih ettiği istemci-sunucu (client-server) yerine sürüm kontrolü için eşler arası (peer-to-peer / P2P) yaklaşımını temel alır. Dağıtık sistem repository (yazılım/dosya havuzu) senkronizasyonunu eş paylaşımı üzerinden pacth’leri değiştirerek gerçekleştirir. Kod tabanının tek bir merkezi sürümü yoktur; bunun yerine, her kullanıcı işleyen bir kopyaya ve tam bir değişiklik geçmişine sahiptir.
