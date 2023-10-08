@@ -52,7 +52,7 @@ Geliştirilen sistemler çerçevesinde kişisel ve/veya kurum ölçeğinde pek �
 [CVS](https://www.nongnu.org/cvs/) en eski sürüm kontrol sistemlerinden biridir ve hem ticari hem de açık kaynaklı geliştiriciler arasında iyi bilinen bir araçtır. Diğer versiyon kontrol sistemleri (SVN, Git vb.) CVS özellikleri / eksiklikleri temel alınarak geliştirilmişlerdir.
 
 #### Git-GitHub
-Github - Git yapısını kullanan bir platform. Platform olmasının sağladığı avantajlar ve sunduğu ek özellikler çerçevesinde yazılım ekipleri tüm kod değişiklik geçmişini takip edebilmekte, sürümler arasında geçiş yapabilmekte ve paylaşabilmekte. Ek olarak, açık projeler kullanıcılar tarafından fork edilebilmekte, çalışmalara dahil olabilmekte ve repo’ları edinebilmekteler.
+![Github - Git](https://github.com/Teknoloji-Filozofu/Version_Kontrol_Sistemleri/blob/main/Git-Github.md) yapısını kullanan bir platform. Platform olmasının sağladığı avantajlar ve sunduğu ek özellikler çerçevesinde yazılım ekipleri tüm kod değişiklik geçmişini takip edebilmekte, sürümler arasında geçiş yapabilmekte ve paylaşabilmekte. Ek olarak, açık projeler kullanıcılar tarafından fork edilebilmekte, çalışmalara dahil olabilmekte ve repo’ları edinebilmekteler.
 
 #### GitLab
 [GitLab](https://gitlab.com/), GitHub alternatifi olarak değerlendirilebilir. Ancak, GitHub’a kıyasla daha yeni bir platform olmasına karşın çok daha kapsamlı özellikler sunduğu söylenebilir.
